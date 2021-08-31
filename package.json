@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/nataliaaraujo0/lista_repositorio_git.git",
   "author": "alucard <devjrteste@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
 }
