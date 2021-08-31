@@ -1,0 +1,8 @@
+{
+  "name": "lista_repositorio_git",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nataliaaraujo0/lista_repositorio_git.git",
+  "author": "alucard <devjrteste@gmail.com>",
+  "license": "MIT"
+}
