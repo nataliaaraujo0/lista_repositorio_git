@@ -1,6 +1,6 @@
 import "./styles/global.scss";
-import { RepositoryList } from "./components/RepositoryList";
-import { Header } from "./components/Header";
+import { Header } from "./components/Header/Header";
+import { RepositoryList } from "./components/RepositoryList/RepositoryList";
 
 export function App() {
   return (
