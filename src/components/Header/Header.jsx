@@ -1,3 +1,5 @@
+import "../../components/Header/style.scss";
+
 export function Header() {
   return (
     <section className="container">
@@ -5,10 +7,10 @@ export function Header() {
         <div className="box-headline">
           <h1>Natália Araújo</h1>
           <p>nataliaaraujo0</p>
-          <p>
+          <h4>
             Estudante de Análise e Desenvolvimento de sistemas e entusiasta de
             Front-end e UI Design.
-          </p>
+          </h4>
         </div>
       </div>
     </section>

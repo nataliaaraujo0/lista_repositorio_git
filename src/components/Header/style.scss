@@ -1,0 +1,33 @@
+.container {
+  margin-top: 56px;
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .box-headline {
+      margin-bottom: 8px;
+      width: 1224px;
+      height: 211px;
+      max-width: 100%;
+      background-color: #2a2932;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    h1 {
+      margin-bottom: 8px;
+      color: #cae2ff;
+    }
+    p {
+      margin-bottom: 8px;
+      color: #abb475;
+    }
+    h4 {
+      color: #b4c5e1;
+    }
+  }
+}
