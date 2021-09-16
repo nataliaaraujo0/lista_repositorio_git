@@ -1,12 +1,62 @@
+import "../../components/RepositoryList/style.scss";
 export function RepositoryList() {
   return (
-    <section className="repository-list">
-      <h1>Gallery-page-stake</h1>
-      <p>
-        Site feito para treinar responsividade com Media queries, flex-box e
-        grid system do bootstrap.
-      </p>
-      <a href="">Link do repositório</a>
-    </section>
+    <>
+      <section className="container-gallery">
+        <div className="content-gallery">
+          <h1>Gallery-page-stake</h1>
+          <p>
+            Site feito para treinar responsividade com Media queries, flex-box e
+            grid system do bootstrap.
+          </p>
+          <button>Acessar</button>
+        </div>
+
+        <div className="content-gallery">
+          <h1>Gallery-page-stake</h1>
+          <p>
+            Site feito para treinar responsividade com Media queries, flex-box e
+            grid system do bootstrap.
+          </p>
+          <button>Acessar</button>
+        </div>
+
+        <div className="content-gallery">
+          <h1>Gallery-page-stake</h1>
+          <p>
+            Site feito para treinar responsividade com Media queries, flex-box e
+            grid system do bootstrap.
+          </p>
+          <button>Acessar</button>
+        </div>
+
+        <div className="content-gallery">
+          <h1>Gallery-page-stake</h1>
+          <p>
+            Site feito para treinar responsividade com Media queries, flex-box e
+            grid system do bootstrap.
+          </p>
+          <button>Acessar</button>
+        </div>
+
+        <div className="content-gallery">
+          <h1>Gallery-page-stake</h1>
+          <p>
+            Site feito para treinar responsividade com Media queries, flex-box e
+            grid system do bootstrap.
+          </p>
+          <button>Acessar</button>
+        </div>
+
+        <div className="content-gallery">
+          <h1>Gallery-page-stake</h1>
+          <p>
+            Site feito para treinar responsividade com Media queries, flex-box e
+            grid system do bootstrap.
+          </p>
+          <button>Acessar</button>
+        </div>
+      </section>
+    </>
   );
 }
