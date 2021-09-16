@@ -7,7 +7,9 @@ export function RepositoryItem() {
         Site feito para treinar responsividade com Media queries, flex-box e
         grid system do bootstrap.
       </p>
-      <button>Acessar</button>
+      <a a href="https://github.com/nataliaaraujo0/gallery-page-skate" button>
+        Acessar
+      </a>
     </div>
   );
 }
