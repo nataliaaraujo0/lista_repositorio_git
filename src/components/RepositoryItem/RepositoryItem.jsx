@@ -1,15 +1,10 @@
 import "../../components/RepositoryItem/style.scss";
-export function RepositoryItem() {
+export function RepositoryItem(props) {
   return (
-    <div className="content-gallery">
-      <h1>Gallery-page-stake</h1>
-      <p>
-        Site feito para treinar responsividade com Media queries, flex-box e
-        grid system do bootstrap.
-      </p>
-      <a a href="https://github.com/nataliaaraujo0/gallery-page-skate" button>
-        Acessar
-      </a>
-    </div>
+    <li className="content-gallery">
+      <strong>{props.repository.name}</strong>
+      <p>{props.repository.description}</p>
+      <a href="{props.repository.link}">Acessar</a>
+    </li>
   );
 }
