@@ -1,4 +1,5 @@
 import "../../components/RepositoryItem/style.scss";
+
 export function RepositoryItem(props) {
   return (
     <li className="content-gallery">
