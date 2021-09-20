@@ -15,7 +15,9 @@ export function RepositoryList() {
     <>
       <ul className="container-gallery">
         {repositories.map(repository => {
-          return <RepositoryItem repository={repository} />;
+          return (
+            <RepositoryItem key={repository.name} repository={repository} />
+          );
         })}
       </ul>
     </>
