@@ -2,13 +2,6 @@ import "../../components/RepositoryList/style.scss";
 import { RepositoryItem } from "../RepositoryItem/RepositoryItem";
 import { useState, useEffect } from "react";
 
-const repository = {
-  name: "Gallery-page-stake",
-  description:
-    " Site feito para treinar responsividade com Media queries, flex-box e grid system do bootstrap",
-  link: "https://github.com/nataliaaraujo0/gallery-page-skate",
-};
-
 export function RepositoryList() {
   const [repositories, setRepositories] = useState([]);
 
@@ -21,12 +14,9 @@ export function RepositoryList() {
   return (
     <>
       <ul className="container-gallery">
-        <RepositoryItem repository={repository} />
-        <RepositoryItem repository={repository} />
-        <RepositoryItem repository={repository} />
-        <RepositoryItem repository={repository} />
-        <RepositoryItem repository={repository} />
-        <RepositoryItem repository={repository} />
+        {repositories.map(repository => {
+          return <RepositoryItem repository={repository} />;
+        })}
       </ul>
     </>
   );
