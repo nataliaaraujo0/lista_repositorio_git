@@ -14,25 +14,37 @@
     width: 392px;
     height: 160px;
     margin: 8px;
-    background-color: #24232a;
+    background-color: #1e1630;
     text-align: center;
+    border-radius: 8px;
+    padding: 8px;
+    transition: all 0.8s;
+  }
+
+  .content-gallery:hover {
+    background-color: #2d2147;
   }
   strong {
-    color: #cae2ff;
+    color: #9886bd;
+    font-size: 18px;
   }
   p {
-    color: #b4c5e1;
+    color: #e4d7f3;
+    margin-top: 8px;
+    font-size: 14px;
   }
 
   a {
     font-family: Raleway;
-    width: 60px;
-    height: 25px;
     margin-top: 16px;
-    background-color: #8574e6;
-    color: #cae2ff;
+    color: #5e5179;
     border: 0;
-    border-radius: 4px;
     text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s;
+  }
+  a:hover {
+    color: #8351e6;
+    font-size: 17px;
   }
 }
