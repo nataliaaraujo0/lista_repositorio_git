@@ -8,7 +8,7 @@ export function App() {
     <>
       <Header />
       <RepositoryList />
-     
+
     </>
   );
 }
