@@ -10,10 +10,13 @@ interface RepositoryItemProps {
 
 export function RepositoryItem(props: RepositoryItemProps) {
   return (
-    <li className="content-gallery">
-      <strong>{props.repository.name}</strong>
+
+    <div className="card">
+      <h1>{props.repository.name}</h1>
       <p>{props.repository.description ?? "Sem descrição!"}</p>
       <a href={props.repository.html_url}>Acessar</a>
-    </li>
+    </div>
+
+
   );
 }

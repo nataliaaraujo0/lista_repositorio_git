@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 body {
-  font-family: Raleway;
-  background-color: #0d051e;
+  font-family: Montserrat;
+  background-color: var(--blue-50);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+:root {
+  --blue-50:#EBF8FF;
+  --blue-200:#90CDF4;
+  --blue-300:#63B3ED;
+  --blue-700:#2C5282;
+  --blue-900:#1A365D;
+
+ 
 }

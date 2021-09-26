@@ -1,4 +1,4 @@
-import "../../components/RepositoryList/style.scss";
+import "../../components/RepositoryList/style.scss"
 import { RepositoryItem } from "../RepositoryItem/RepositoryItem";
 import { useState, useEffect } from "react";
 
@@ -21,7 +21,7 @@ export function RepositoryList() {
 
   return (
     <>
-      <ul className="container-gallery">
+      <ul className="container">
         {repositories.map(repository => {
           return (
             <RepositoryItem key={repository.name} repository={repository} />
@@ -29,5 +29,8 @@ export function RepositoryList() {
         })}
       </ul>
     </>
+
+
+
   );
 }
